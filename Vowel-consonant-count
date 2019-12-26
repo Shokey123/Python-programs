@@ -1,0 +1,20 @@
+#Calculation of vowels and consonants in a given paragraph of line
+
+
+
+s = str(input("Enter your sentance or string:"))
+vowel_count = 0 
+consonent_count = 0
+
+for value in s:
+    if value in "AEIOUaeiou":
+        vowel_count+=1
+    elif value == " ":
+        continue
+        print("lets check if i see this in output")
+    else:
+        consonent_count+= 1 
+        
+print("Vowel count is:",vowel_count," Consonant count:",consonent_count)
+
+
