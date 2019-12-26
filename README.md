@@ -2,9 +2,10 @@
 #No of notes issued by ATM machine 
 
 
+
+
 amount= int(input("Enter amount:"))
 note_count = 0
-
 
 if amount%10 != 0:
     print("Amount should be multiple of Rs 10.")
